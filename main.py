@@ -3,7 +3,7 @@ import customtkinter
 class tic_tac_toe(customtkinter.CTk):
     def __init__(self):
         super().__init__()
-                # window setup
+                
         self.title("Tic Tac Toe")
         self.geometry("500x600")
         self.xState = [0] * 9
